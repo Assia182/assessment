@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Style général de la page */
+.home-container {
+  padding: 20px;
+  background-color: #f8f9fa; /* Couleur de fond légère */
+  min-height: 100vh; /* Hauteur minimale pour que la page prenne tout l'écran */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Style de la barre de sélection */
+.selectDiv {
+  margin: 20px 0; /* Ajoute un peu d'espace autour de la sélection */
+}
+
+.select {
+  width: 100%; /* Permet à la sélection de prendre toute la largeur */
+  min-height: 38px; /* Hauteur minimale pour la facilité de clic */
+  border: 1px solid #ced4da; /* Bordure subtile */
+  border-radius: 4px; /* Coins arrondis */
+  padding: 5px; /* Padding interne */
+  background-color: white; /* Fond blanc pour la visibilité */
+}
+
+/* Style de la liste des posts */
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Disposition en grille avec des colonnes réactives */
+  grid-gap: 20px; /* Espace entre les posts */
+  margin-top: 20px; /* Espace au-dessus de la première ligne de posts */
+}
+
+/* Style du bouton 'Load more' */
+.buttonDiv {
+  text-align: center; /* Centre le bouton dans son div */
+  margin-top: 20px; /* Espace au-dessus du bouton */
+}
+
+.btn {
+  padding: 10px 20px; /* Taille du bouton */
+  border: none; /* Pas de bordure */
+  background-color: black; /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte */
+  font-size: 16px; /* Taille du texte */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Change le curseur en main quand on survole */
+  outline: none; /* Supprime l'outline par défaut au focus */
+}
+
+.btn:hover {
+  background-color: grey; /* Assombrir le bouton au survol */
+}
+
+.btn:active {
+  background-color: #003885; /* Assombrir encore plus le bouton quand il est cliqué */
 }

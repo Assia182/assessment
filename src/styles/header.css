@@ -1,0 +1,24 @@
+/* Styles pour le composant Header */
+.navbar {
+  background-color: #333; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  padding: 20px;
+  text-align: center; /* Centrer le texte horizontalement */
+}
+
+.textArea {
+  font-size: 1.5rem; /* Taille de la police */
+  font-weight: bold; /* Poids de la police */
+  text-decoration: none; /* Supprimer le soulignement du lien */
+  color: #fff; /* Couleur du texte */
+}
+
+.textArea:hover {
+  color: #61dafb; /* Changement de couleur au survol */
+}
+
+/* Ajoutez d'autres styles au besoin */
+
+
+ 
+  

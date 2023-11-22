@@ -1,0 +1,23 @@
+/* Styles pour la liste en forme de carte*/
+.card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(25% - 20px); /* Largeur de chaque carte (ajustez selon vos besoins) */
+    margin-bottom: 20px;
+    background-color: #fff; /* Couleur de fond de la carte */
+    border: 1px solid #ddd; /* Bordure autour de la carte */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /*Ombre légère */
+    box-sizing: border-box; /* Inclut la marge et le rembourrage dans la largeur */
+    display: flex; /* Utilisez Flexbox pour centrer le contenu */
+    flex-direction: column; /* Alignez le contenu verticalement */
+    align-items: center; /* Centrez le contenu horizontalement */
+  }
+  

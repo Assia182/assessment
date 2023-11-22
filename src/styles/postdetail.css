@@ -1,0 +1,62 @@
+/* Styles pour le composant PostDetail */
+.container-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350%;
+  
+}
+
+.card {
+  width: 100%; /* Largeur de chaque carte (ajustez selon vos besoins) */  
+  background-color: #fff; /* Couleur de fond de la carte */
+  padding: 15px;
+  display: flex; /* Utilisez Flexbox pour centrer le contenu */
+  flex-direction: column; /* Alignez le contenu verticalement */
+  align-items: center; /* Centrez le contenu horizontalement */
+}
+
+h3 {
+  font-size: 1.2rem; /* Taille de la police pour le titre */
+  font-weight: bold; /* Poids de la police pour le titre */
+  margin-bottom: 10px; /* Marge en bas du titre */
+}
+
+img {
+  width: 40px; /* Largeur de l'avatar */
+  height: 40px; /* Hauteur de l'avatar */
+  border-radius: 50%; /* Avatar avec coins arrondis */
+  margin-right: 10px; /* Marge à droite de l'avatar */
+}
+
+.dateHome {
+  color: #999; /* Couleur de la date */
+  font-size: 0.9rem; /* Taille de la police pour la date */
+}
+
+
+.container {
+  display: flex;        /* Active Flexbox */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center;     /* Centre verticalement */       /* Utilisez toute la hauteur de la vue */
+}
+
+.button {
+  padding: 10px 20px;   /* Padding pour augmenter la zone cliquable */
+  border-color: black  ;         /* Supprime la bordure par défaut */
+  background-color: white; /* Couleur de fond du bouton */
+  color: black;         /* Couleur du texte */
+  font-size: 16px;      /* Taille du texte */
+  cursor: pointer;      /* Affiche un curseur de pointeur lors du survol */
+  border-radius: 5px;   /* Coins arrondis */
+}
+
+/* Vous pouvez ajouter :hover et :active pour les états de survol et de clic */
+.button:hover {
+  background-color: #0056b3;
+}
+
+
+ 
+
+

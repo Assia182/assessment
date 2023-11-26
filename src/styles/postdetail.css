@@ -51,10 +51,7 @@ img {
   border-radius: 5px;   /* Coins arrondis */
 }
 
-/* Vous pouvez ajouter :hover et :active pour les états de survol et de clic */
-.button:hover {
-  background-color: #0056b3;
-}
+
 
 
  
